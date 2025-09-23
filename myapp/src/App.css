@@ -1,1 +1,97 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Black Future';
+  src: url('./assets/fonts/Black Future.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium Regular';
+  src: url('./assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.black-future {
+  font-family: 'Black Future';
+}
+.titi{
+  font-family: 'Titillium Regular';
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+@font-face {
+  font-family: 'Black Future';
+  src: url('./assets/fonts/Black Future.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Titillium Regular';
+  src: url('./assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.wholeContent{
+  width: 100%;
+  height: 100%;
+}
+.BlobContainer{
+  height: 200vh;
+}
+.canvas-container {
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 98.8vw;
+  height: 100%;
+     /* background: #0F101C;
+background: linear-gradient(90deg, rgba(15, 16, 28, 1) 0%, rgba(25, 27, 59, 1) 50%, rgba(36, 42, 110, 1) 100%); */
+background: linear-gradient(to right, #c3dafe, #e9d8fd);
+  
+
+}
+.dot{
+  height: 100vh;
+  position: sticky;
+  top:0
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%; 
+    transform: translateY(-120px);
+}
+.red{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  
+}
+@media (max-width:700px){
+.Team{
+  margin: 10em 0em 0em;
+  
+}
+.Okay{
+  margin: 0.5em;
+}
+.canvas-container {
+  width: 98vw;
+}
+}
+
