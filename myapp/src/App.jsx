@@ -1,10 +1,10 @@
 import { useLocation, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import PageWrapper from "./components/PageWrapper";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer/Footer";
-import ScrollToTop from "./components/ScrollToTop"; // ✅ Import it here
-
+import ScrollToTop from "./components/ScrollToTop"; 
 import Home from "./pages/Home";
 import About from "./pages/AboutUs";
 import Contact from "./pages/ContactUs";
